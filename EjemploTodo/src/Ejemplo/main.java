@@ -1,5 +1,7 @@
 package Ejemplo;
 
+import javax.swing.JOptionPane;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -32,7 +34,11 @@ public class main {
 		E3.show_inf();
 		E4.show_inf();
 		
-
+		int y = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero:"));
+		if(y == 1){
+			for(int x=0; x<50; x++)
+				System.out.println();
+		}
 	}
 
 }
