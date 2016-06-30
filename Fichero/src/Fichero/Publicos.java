@@ -1,0 +1,5 @@
+package Fichero;
+
+interface Publicos {
+
+}
