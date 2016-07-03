@@ -1,5 +1,7 @@
 package Fichero;
 
+import javax.swing.JOptionPane;
+
 public class Items {
 	private String Ip, fecha;
 	private int repetir;
@@ -31,5 +33,7 @@ public class Items {
 		this.repetir = repetir;
 	}
 	
-
+	protected void finalize(){
+		JOptionPane.showMessageDialog(null, "Finalizando Programa");
+	}
 }
